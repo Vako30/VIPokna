@@ -1,21 +1,37 @@
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
-    </div>
+<?php
+/* if (has_nav_menu('primary_navigation')) :
+  wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Nav_Walker(), 'menu_class' => 'nav navbar-nav'));
+endif; */
+?>
+<div id="header">
+    <div class="box">
+        <div id="headerBlocks">
+            <div class="logo">
+                <a href="/">VIP-OKNA</a>
+                <span class="phone_logo">271 51 11</span>
+            </div>
+            <div class="region region-header">
+                <div id="block-system-main-menu" class="block block-system block-menu">
+                    <div class="block-inner">
 
-    <nav class="collapse navbar-collapse" role="navigation">
-      <?php
-        if (has_nav_menu('primary_navigation')) :
-          wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Nav_Walker(), 'menu_class' => 'nav navbar-nav'));
-        endif;
-      ?>
-    </nav>
-  </div>
-</header>
+
+                        <div class="content">
+                            <ul class="menu">
+                                <li class="first leaf active-trail"><a href="index.html" class="active-trail active">Главная</a></li>
+                                <li class="leaf"><a href="about.html">О компании</a></li>
+                                <li class="leaf"><a href="kalkulyator.html">Калькулятор</a></li>
+                                <li class="leaf"><a href="products.html" title="">Продукция</a></li>
+                                <li class="leaf"><a href="articles.html" title="">СТАТЬИ</a></li>
+                                <li class="leaf"><a href="photogallery.html">ФОТОГАЛЕРЕЯ</a></li>
+                                <li class="leaf"><a href="news_promo.html" title="">НОВОСТИ/АКЦИИ</a></li>
+                                <li class="last leaf"><a href="contacts.html">КОНТАКТЫ</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /header -->
