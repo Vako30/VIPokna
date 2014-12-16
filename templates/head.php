@@ -29,30 +29,26 @@
         @import url("http://vipokna63.ru/themes/WAWeb/fonts/fonts.css?n3apfh");
     </style>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/demo.css"/>
-    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/custom.css"/>
 
-    <noscript>
-        <link rel="stylesheet" type="text/css" href="css/styleNoJS.css"/>
-    </noscript>
-
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.once.js"></script>
-    <script type="text/javascript" src="js/drupal.js"></script>
-    <script type="text/javascript" src="js/admin_devel.js"></script>
-    <script type="text/javascript" src="js/ru_13BVCpNT71z7067b2hM0SkXyZ514TFv9Rw80CCBSUBo.js"></script>
-    <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="js/colorbox.js"></script>
-    <script type="text/javascript" src="js/colorbox_style.js"></script>
-    <script type="text/javascript" src="js/webform.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.34807.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-    <script type="text/javascript" src="js/jquery.slitslider.js"></script>
-    <script type="text/javascript" src="js/jquery.pfold.js"></script>
-    <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="//js/jquery.min.js"></script>
+    <script type="text/javascript" src="//js/jquery.once.js"></script>
+    <script type="text/javascript" src="//js/drupal.js"></script>
+    <script type="text/javascript" src="//js/admin_devel.js"></script>
+    <script type="text/javascript" src="//js/ru_13BVCpNT71z7067b2hM0SkXyZ514TFv9Rw80CCBSUBo.js"></script>
+    <script type="text/javascript" src="//js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="//js/colorbox.js"></script>
+    <script type="text/javascript" src="//js/colorbox_style.js"></script>
+    <script type="text/javascript" src="//js/webform.js"></script>
+    <script type="text/javascript" src="//js/modernizr.custom.34807.js"></script>
+    <script type="text/javascript" src="//js/modernizr.custom.79639.js"></script>
+    <script type="text/javascript" src="//js/jquery.slitslider.js"></script>
+    <script type="text/javascript" src="//js/jquery.pfold.js"></script>
+    <script type="text/javascript" src="//js/jquery.ba-cond.min.js"></script>
+    <script type="text/javascript" src="//js/custom.js"></script>
     <!-- Bootstrap -->
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
