@@ -26,8 +26,8 @@ function roots_scripts() {
       'modernizr' => '/assets/vendor/modernizr/modernizr.js',
       'jquery'    => '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js'
     );
-  } else {
-    $get_assets = file_get_contents(get_template_directory() . '/assets/manifest.json');
+  }/* else {
+    //$get_assets = file_get_contents(get_template_directory() . '/assets/manifest.json');
     $assets     = json_decode($get_assets, true);
     $assets     = array(
       'css'       => '/assets/css/main.min.css?' . $assets['assets/css/main.min.css']['hash'],
@@ -35,7 +35,7 @@ function roots_scripts() {
       'modernizr' => '/assets/js/vendor/modernizr.min.js',
       'jquery'    => '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'
     );
-  }
+  }*/
 
   wp_enqueue_style('roots_css', get_template_directory_uri() . $assets['css'], false, null);
 

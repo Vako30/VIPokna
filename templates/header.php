@@ -17,7 +17,7 @@ endif; */
 
                         <div class="content">
                             <ul class="menu">
-                                <li class="first leaf active-trail"><a href="index.html" class="active-trail active">Главная</a></li>
+                                <li class="first leaf active-trail"><a href="home.html" class="active-trail active">Главная</a></li>
                                 <li class="leaf"><a href="about.html">О компании</a></li>
                                 <li class="leaf"><a href="kalkulyator.html">Калькулятор</a></li>
                                 <li class="leaf"><a href="products.html" title="">Продукция</a></li>

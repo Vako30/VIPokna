@@ -8,25 +8,27 @@
     <link rel="canonical" href="/index.html"/>
     <link rel="shortlink" href="/node/8"/>
     <title><?php wp_title('|', true, 'right'); ?></title>
-    <style type="text/css" media="all">@import url("http://vipokna63.ru/modules/system/system.base.css?n3apfh");
-        @import url("http://vipokna63.ru/modules/system/system.menus.css?n3apfh");
-        @import url("http://vipokna63.ru/modules/system/system.messages.css?n3apfh");
-        @import url("http://vipokna63.ru/modules/system/system.theme.css?n3apfh");</style>
-    <style type="text/css" media="all">@import url("http://vipokna63.ru/modules/field/theme/field.css?n3apfh");
-        @import url("http://vipokna63.ru/modules/node/node.css?n3apfh");
-        @import url("http://vipokna63.ru/modules/search/search.css?n3apfh");
-        @import url("http://vipokna63.ru/modules/user/user.css?n3apfh");
-        @import url("http://vipokna63.ru/sites/all/modules/views/css/views.css?n3apfh");</style>
-    <style type="text/css"
-           media="all">@import url("http://vipokna63.ru/sites/all/modules/ckeditor/ckeditor.css?n3apfh");
-        @import url("http://vipokna63.ru/sites/all/modules/colorbox/styles/default/colorbox_style.css?n3apfh");
-        @import url("http://vipokna63.ru/sites/all/modules/ctools/css/ctools.css?n3apfh");
-        @import url("http://vipokna63.ru/sites/all/modules/webform/css/webform.css?n3apfh");</style>
-    <style type="text/css" media="all">@import url("http://vipokna63.ru/themes/WAWeb/css/calculator.css?n3apfh");
-        @import url("http://vipokna63.ru/themes/WAWeb/css/pfold.css?n3apfh");
-        @import url("http://vipokna63.ru/themes/WAWeb/demo.css?n3apfh");
-        @import url("http://vipokna63.ru/themes/WAWeb/local-tasks.css?n3apfh");
-        @import url("http://vipokna63.ru/themes/WAWeb/fonts/fonts.css?n3apfh");
+    <style type="text/css" media="all"> @import url("<?php bloginfo('template_url'); ?>/css/system.base.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/system.menus.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/system.messages.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/system.theme.css");</style>
+    <style type="text/css" media="all">
+        @import url("<?php bloginfo('template_url'); ?>/css/field.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/node.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/search.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/user.css?");
+        @import url("<?php bloginfo('template_url'); ?>/css/views.css");</style>
+    <style type="text/css" media="all">
+        @import url("<?php bloginfo('template_url'); ?>/css/ckeditor.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/colorbox_style.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/ctools.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/webform.css");</style>
+    <style type="text/css" media="all">
+        @import url("<?php bloginfo('template_url'); ?>/css/calculator.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/pfold.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/demo1.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/local-tasks.css");
+        @import url("<?php bloginfo('template_url'); ?>/css/fonts.css");
     </style>
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/style.css"/>

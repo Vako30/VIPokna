@@ -53,7 +53,7 @@
     	++i;
     	$(this).wrap('<div class="menu_box"></div>');
     	$(this).clone().addClass('under_menu').insertAfter(this);
-    	$(this).next().prepend('<img src="/img/under_menu' + i + '.png" class="under_menu_img">');
+    	$(this).next().prepend('<img src="http://dev1.smartproductionllc.com/wp-content/themes/VIPokna/assets/img/under_menu' + i + '.png" class="under_menu_img">');
     	var href = $(this).find('a').attr('href');
     	$(this).next().find('img').wrap('<a href="'+ href + '" class="img_link"></a>');
     	$(this).next().wrap('<a href="'+ href + '"></a>');

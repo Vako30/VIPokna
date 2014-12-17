@@ -22,19 +22,15 @@
                                 <div class="views-row views-row-1 views-row-odd views-row-first">
 
                                     <div class="views-field views-field-field-slide-bg">
-                                        <div class="field-content"><img typeof="foaf:Image"
-                                                                        src="<?php bloginfo('template_url'); ?>/assets/img/retro_dra_69.jpg"
-                                                                        width="1600" height="1200" alt=""/></div>
+                                        <div class="field-content"><img typeof="foaf:Image" src="<?php bloginfo('template_url'); ?>/assets/img/retro_dra_69.jpg" width="1600" height="1200" alt=""/></div>
                                     </div>
                                     <div class="views-field views-field-field-slide-badge">
                                         <div class="field-content"></div>
                                     </div>
                                     <div class="views-field views-field-title"><span
-                                            class="field-content"><a
-                                                href="/content/slayd6">Слайд6</a></span></div>
+                                            class="field-content"><a href="/content/slayd6">Слайд6</a></span></div>
                                     <div class="views-field views-field-field-slide-description">
-                                        <div class="field-content">Здесь небольшой текст о данном виде
-                                            продукции на несколько строчек
+                                        <div class="field-content">Здесь небольшой текст о данном виде продукции на несколько строчек
                                         </div>
                                     </div>
                                     <div class="views-field views-field-field-slide-link">
@@ -44,9 +40,7 @@
                                 <div class="views-row views-row-2 views-row-even">
 
                                     <div class="views-field views-field-field-slide-bg">
-                                        <div class="field-content"><img typeof="foaf:Image"
-                                                                        src="<?php bloginfo('template_url'); ?>/assets/img/slide1.jpg"
-                                                                        alt=""/></div>
+                                        <div class="field-content"><img typeof="foaf:Image"src="<?php bloginfo('template_url'); ?>/assets/img/slide1.jpg" alt=""/></div>
                                     </div>
                                     <div class="views-field views-field-field-slide-badge">
                                         <div class="field-content"><img typeof="foaf:Image"
@@ -269,7 +263,7 @@
                                 </p>
 
                                 <div>
-                                    <img alt="" src="img/heart.png"/><span style="font-size:14px;"><span
+                                    <img alt="" src="<?php bloginfo('template_url'); ?>/assets/img/heart.png"/><span style="font-size:14px;"><span
                                             style="font-family:arial,helvetica,sans-serif;"><span
                                                 style="color:#ff0000;"><strong><span class="h1">КАЧЕСТВО</span> </strong></span><span
                                                 class="text"> Гварантия высочайшего качества нашей продукции.</span></span></span>
@@ -277,12 +271,12 @@
                             </div>
                             <div class="what2">
                                 <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"><img
-                                            alt="" src="img/calcul.png"/><span style="color:#000080;"><strong><span
+                                            alt="" src="<?php bloginfo('template_url'); ?>/assets/img/calcul.png"/><span style="color:#000080;"><strong><span
                                                     class="h1">ЦЕНА</span></strong> </span>Приемлимые цены, и скидки для постоянных клиентов.</span></span>
                             </div>
                             <div class="what3">
                                 <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"><img
-                                            alt="" src="img/clock.png"/><strong> <span style="color:#006400;"><span
+                                            alt="" src="<?php bloginfo('template_url'); ?>/assets/img/clock.png"/><strong> <span style="color:#006400;"><span
                                                     class="h1">СЖАТЫЕ СРОКИ</span></span></strong><span
                                             style="color:#006400;"> </span>Выполнение работ любой сложности в сжатые сроки.</span></span>
                             </div>

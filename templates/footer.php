@@ -18,7 +18,7 @@
     <img src="<?php bloginfo('template_url'); ?>/assets/img/under_menu6.png" width="35"/>
     <img src="<?php bloginfo('template_url'); ?>/assets/img/under_menu7.png" width="35"/>
     <img src="<?php bloginfo('template_url'); ?>/assets/img/under_menu8.png" width="25"/>
-  </div><?php bloginfo('template_url'); ?>/assets/
+  </div>
 </div>
 
 
